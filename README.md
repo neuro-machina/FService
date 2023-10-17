@@ -1,6 +1,9 @@
 # FService
 Simple service pattern plugin for Flax Engine, inspired by MonoGame ServiceContainer.
 
+To incorportate the plugin to your flax project, simply add the two cs files (IServicePlugin.cs and ServicePlugin.cs
+) anywhere in your project, or simply copy paste the code directly in new created cs files in your source project.
+
 ## How to use:
 
 First you need to register a service, it can be done from anywhere you want as long you are registering a class, can also register an object by interface:
